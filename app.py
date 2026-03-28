@@ -98,7 +98,7 @@ def home():
 
 
 # -------- RESET --------
-@app.get("/reset")
+@app.post("/reset")
 def reset():
     global current_ticket, last_action
     current_ticket = random.choice(tickets)
