@@ -9,6 +9,8 @@ app_port: 7860
 
 # 🚀 SupportEnv — AI Customer Support Simulation Environment
 
+🔗 Live Demo: https://munshiarpan19-support-env.hf.space/ui
+
 SupportEnv is a real-world simulation environment designed for training and evaluating AI agents on customer support tasks.
 
 ---
@@ -69,3 +71,10 @@ This environment simulates those challenges in a structured, testable way.
   "sentiment": "neutral | angry",
   "difficulty": "easy | medium | hard"
 }
+
+## 🖥 Demo
+
+Try it live:
+- /ui → Interactive dashboard
+- /baseline → Auto agent evaluation
+- /tasks → Task definitions
